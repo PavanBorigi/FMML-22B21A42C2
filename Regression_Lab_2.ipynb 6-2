@@ -94,9 +94,9 @@
         "id": "f9qiER5ef8Sh",
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 430
+          "height": 278
         },
-        "outputId": "d349e24a-4c47-4a89-f3ea-040c8961634a"
+        "outputId": "53170db5-47ce-4858-96cd-b8c7343e68b6"
       },
       "source": [
         "# initializing random data\n",
@@ -153,7 +153,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "y0KIs1xP2AbG",
-        "outputId": "bea3bcce-854b-4e68-fffd-a9a9e921d1e4"
+        "outputId": "8100af9d-eff5-4c6e-f2a7-97b21c2989ce"
       },
       "source": [
         "mse = np.mean((y_actual-y_pred)**2)\n",
@@ -192,7 +192,7 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "4ea397b0-c81b-4cc4-ff2d-a65cd781a5b8"
+        "outputId": "b830913f-d688-4102-c911-780d43faaf78"
       },
       "source": [
         "mae = np.mean(np.abs(y_actual-y_pred))\n",
@@ -308,9 +308,9 @@
         "id": "mLKuJyHth5-4",
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 607
+          "height": 278
         },
-        "outputId": "5e283e19-a478-4833-8a89-4e63d1543d52"
+        "outputId": "f8a7ac35-5375-4d49-ebca-dc2a852bf8ff"
       },
       "source": [
         "def sigmoid(z):\n",
@@ -425,7 +425,7 @@
           "height": 273
         },
         "id": "bkMzDwYaYTlQ",
-        "outputId": "8600abfe-c5b7-4519-8f1b-702735030859"
+        "outputId": "8f04288a-1a66-45ac-b740-3ca8fe0a608c"
       },
       "execution_count": 8,
       "outputs": [
@@ -493,7 +493,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-4efed728-d6e5-404a-b5e5-6d24a7b532ed\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-be910cf3-7aef-4ce3-b677-fd3da16417ec\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -663,7 +663,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-4efed728-d6e5-404a-b5e5-6d24a7b532ed')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-be910cf3-7aef-4ce3-b677-fd3da16417ec')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -715,12 +715,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-4efed728-d6e5-404a-b5e5-6d24a7b532ed button.colab-df-convert');\n",
+              "        document.querySelector('#df-be910cf3-7aef-4ce3-b677-fd3da16417ec button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-4efed728-d6e5-404a-b5e5-6d24a7b532ed');\n",
+              "        const element = document.querySelector('#df-be910cf3-7aef-4ce3-b677-fd3da16417ec');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -740,8 +740,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "<div id=\"df-63da4de2-13b0-4393-a58a-18b40354da20\">\n",
-              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-63da4de2-13b0-4393-a58a-18b40354da20')\"\n",
+              "<div id=\"df-cc7dae97-9da1-47ec-8d1c-4222576ba2e1\">\n",
+              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-cc7dae97-9da1-47ec-8d1c-4222576ba2e1')\"\n",
               "            title=\"Suggest charts\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -860,7 +860,7 @@
               "    }\n",
               "    (() => {\n",
               "      let quickchartButtonEl =\n",
-              "        document.querySelector('#df-63da4de2-13b0-4393-a58a-18b40354da20 button');\n",
+              "        document.querySelector('#df-cc7dae97-9da1-47ec-8d1c-4222576ba2e1 button');\n",
               "      quickchartButtonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "    })();\n",
@@ -947,10 +947,10 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 871
+          "height": 393
         },
         "id": "P0rIZOClcKI6",
-        "outputId": "3aefe13b-90d7-4652-dc06-6a27c307225c"
+        "outputId": "760c1b23-4d27-41eb-f5a3-7c70d3b7766f"
       },
       "execution_count": 12,
       "outputs": [
@@ -984,6 +984,51 @@
       ],
       "metadata": {
         "id": "0QNjfdMXk2AH"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "1.Certainly! Different loss functions in regression tasks affect how the model learns and optimizes. Here are a few common ones:\n",
+        "\n",
+        "Mean Squared Error (MSE): Penalizes large errors heavily. Suitable for tasks where small errors are crucial, as it squares the differences.\n",
+        "\n",
+        "Mean Absolute Error (MAE): Treats all errors equally. Useful when outliers shouldn't be heavily penalized.\n",
+        "\n",
+        "Huber Loss: A combination of MSE and MAE. It's less sensitive to outliers than MSE and provides a balance between the two.\n",
+        "\n",
+        "Log-Cosh Loss: Similar to Huber Loss, but with a logarithmic component. Less sensitive to outliers compared to MSE.\n",
+        "\n",
+        "Quantile Loss: Useful for predicting quantiles, providing a measure of uncertainty. It minimizes the weighted absolute differences between predicted and target quantiles."
+      ],
+      "metadata": {
+        "id": "DoG1nsd7sxMy"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2.Hinge Loss: Used in support vector machines and for tasks where maximizing the margin between classes is crucial, like in binary classification.\n",
+        "\n",
+        "Cross-Entropy Loss (Log Loss): Commonly applied in classification problems, especially when dealing with probabilistic models. It penalizes models that are confidently wrong.\n",
+        "\n",
+        "Sparse Categorical Cross-Entropy Loss: Suitable for multi-class classification tasks where each instance belongs to a single class.\n",
+        "\n",
+        "Weighted Loss Functions: Helpful when certain samples are more important than others. It assigns different weights to different samples, emphasizing their impact on the overall loss.\n",
+        "\n",
+        "Dice Loss: Commonly used in medical image segmentation tasks, aiming to improve the performance of models by considering the overlap between predicted and target masks."
+      ],
+      "metadata": {
+        "id": "3nsuGqkUtU3X"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "3.Sure, I'll explore KNN regression on various datasets and determine the optimal K values for the best results."
+      ],
+      "metadata": {
+        "id": "THYKkdHftYBH"
       }
     }
   ]
